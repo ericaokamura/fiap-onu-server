@@ -6,7 +6,7 @@
 - Spring Framework
 - Lombok
 - Banco de dados Postgresql
-- Spring Security / OAuth
+- Spring Security / OAuth2
 
 
 ## Instalação e Execução Local
