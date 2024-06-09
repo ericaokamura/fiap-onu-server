@@ -24,11 +24,5 @@ O arquivo script se chama "schema.sql" e encontra-se no diretório src/main/reso
 Para execução local, o servidor backend deve ser acessado no endereço: http://localhost:8091.
 
 
-## Deploy da aplicação
-
-Foi realizado o deploy da aplicação utilizando-se a plataforma [Render](https://render.com).
-Acesse a aplicação no ar: 
-
-
 
 
