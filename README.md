@@ -16,10 +16,10 @@ O arquivo script se chama "schema.sql" e encontra-se no diretório src/main/reso
 
 ### Dados de conexão ao banco de dados:
 
-Host: dpg-cpi5r2a1hbls73bcm3ig-a.oregon-postgres.render.com
-Database: onu
-Username: root
-Password: TpeLo3lhK4qqH8yumqgY8F9H1IjJrckC
+- Host: dpg-cpi5r2a1hbls73bcm3ig-a.oregon-postgres.render.com
+- Database: onu
+- Username: root
+- Password: TpeLo3lhK4qqH8yumqgY8F9H1IjJrckC
 
 Para execução local, o servidor backend deve ser acessado no endereço: http://localhost:8091.
 
