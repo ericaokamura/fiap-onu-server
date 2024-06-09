@@ -26,7 +26,7 @@ Para execução local, o servidor backend deve ser acessado no endereço: http:/
 
 ## Deploy da aplicação
 
-A aplicação backend foi deployada utilizando-se a plataforma [Render](https://render.com).
+Foi realizado o deploy da aplicação utilizando-se a plataforma [Render](https://render.com).
 Acesse a aplicação no ar: 
 
 
