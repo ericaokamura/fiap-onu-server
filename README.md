@@ -11,7 +11,7 @@
 
 ## Instalação e Execução Local
 
-Para executar a aplicação localmente, é necessário executar um script para a criação das tabelas.
+Para executar a aplicação localmente, é necessário executar um script para a criação das tabelas, utilizando um dbclient (DBeaver, por exemplo).
 O arquivo script se chama "schema.sql" e encontra-se no diretório src/main/resources.
 
 Para execução local, o servidor backend deve ser acessado no endereço: http://localhost:8091.
