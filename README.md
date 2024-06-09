@@ -14,7 +14,7 @@
 Para executar a aplicação localmente, é necessário executar um script para a criação das tabelas, utilizando um Database Client (DBeaver, por exemplo).
 O arquivo script se chama "schema.sql" e encontra-se no diretório src/main/resources.
 
-### Dados de conexão ao banco de dados:
+### Dados de conexão ao banco de dados Postgresql:
 
 - Host: dpg-cpi5r2a1hbls73bcm3ig-a.oregon-postgres.render.com
 - Database: onu
