@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("anuncio")
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200, http://localhost:8081", maxAge = 3600)
 public class AnuncioController {
 
     @Autowired
@@ -38,6 +38,13 @@ public class AnuncioController {
     @GetMapping("/{nomeUsuario}/nomeUsuario")
     public ResponseEntity<List<AnuncioDTO>> retornarAnunciosPorUsuario(@PathVariable("nomeUsuario") String nomeUsuario) {
         List<AnuncioDTO> anuncios = anuncioService.retornarTodosAnunciosPorUsuario(nomeUsuario);
+        return ResponseEntity.ok(anuncios);
+    }
+
+    @CrossOrigin
+    @GetMapping("/disponibilidade")
+    public ResponseEntity<List<AnuncioDTO>> retornarAnunciosPorDisponibilidade() {
+        List<AnuncioDTO> anuncios = anuncioService.retornarAnunciosPorDisponibilidade();
         return ResponseEntity.ok(anuncios);
     }
 

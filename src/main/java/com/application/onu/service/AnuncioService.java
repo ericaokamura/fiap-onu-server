@@ -107,4 +107,16 @@ public class AnuncioService {
     public List<AnuncioDTO> ordenarAnunciosPorDataHoraPublicacao() {
         return AnuncioMapper.convertListModelToListDto(anuncioRepository.findAll(Sort.by(Sort.Direction.DESC, "dataHoraPublicacao")));
     }
+
+    public List<AnuncioDTO> retornarAnunciosPorDisponibilidade() {
+        List<Anuncio> anuncios = anuncioRepository.findAll();
+        List<Anuncio> retorno = new ArrayList<>();
+        for (Anuncio anuncio : anuncios) {
+            if(anuncio.isDisponibilidade()) {
+                retorno.add(anuncio);
+            }
+        }
+        return AnuncioMapper.convertListModelToListDto(retorno);
+
+    }
 }
