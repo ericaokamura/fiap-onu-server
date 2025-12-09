@@ -23,6 +23,11 @@ O arquivo script se chama "schema.sql" e encontra-se no diretório src/main/reso
 
 Para execução local, o servidor backend deve ser acessado no endereço: http://localhost:8091.
 
+### Repositório da aplicação frontend
+
+https://github.com/ericaokamura/fiap-onu-angular-app
+ 
+
 
 
 
